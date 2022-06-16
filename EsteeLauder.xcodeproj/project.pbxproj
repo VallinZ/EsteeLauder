@@ -13,6 +13,9 @@
 		CB341DB52859682A00F26405 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB341DB32859682A00F26405 /* Main.storyboard */; };
 		CB341DB72859682C00F26405 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB341DB62859682C00F26405 /* Assets.xcassets */; };
 		CB341DBA2859682C00F26405 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB341DB82859682C00F26405 /* LaunchScreen.storyboard */; };
+		CB341DC2285982D200F26405 /* BuyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB341DC1285982D200F26405 /* BuyViewController.swift */; };
+		CB341DC628598F1600F26405 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB341DC528598F1600F26405 /* DetailsViewController.swift */; };
+		CB341DCA285990AD00F26405 /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB341DC9285990AC00F26405 /* ImageViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		CB341DB62859682C00F26405 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CB341DB92859682C00F26405 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CB341DBB2859682C00F26405 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB341DC1285982D200F26405 /* BuyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuyViewController.swift; sourceTree = "<group>"; };
+		CB341DC528598F1600F26405 /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		CB341DC9285990AC00F26405 /* ImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +66,9 @@
 				CB341DAF2859682A00F26405 /* SceneDelegate.swift */,
 				CB341DB12859682A00F26405 /* ViewController.swift */,
 				CB341DB32859682A00F26405 /* Main.storyboard */,
+				CB341DC528598F1600F26405 /* DetailsViewController.swift */,
+				CB341DC9285990AC00F26405 /* ImageViewController.swift */,
+				CB341DC1285982D200F26405 /* BuyViewController.swift */,
 				CB341DB62859682C00F26405 /* Assets.xcassets */,
 				CB341DB82859682C00F26405 /* LaunchScreen.storyboard */,
 				CB341DBB2859682C00F26405 /* Info.plist */,
@@ -139,8 +148,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				CB341DB22859682A00F26405 /* ViewController.swift in Sources */,
+				CB341DC2285982D200F26405 /* BuyViewController.swift in Sources */,
 				CB341DAE2859682A00F26405 /* AppDelegate.swift in Sources */,
 				CB341DB02859682A00F26405 /* SceneDelegate.swift in Sources */,
+				CB341DCA285990AD00F26405 /* ImageViewController.swift in Sources */,
+				CB341DC628598F1600F26405 /* DetailsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
